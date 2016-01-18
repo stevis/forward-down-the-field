@@ -1,2 +1,2 @@
 # forward-down-the-field
-Marketing website for www.forwarddownthefield.com
+Marketing website for http://forwarddown.com/
