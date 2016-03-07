@@ -8,6 +8,7 @@ h1, #main-nav, h2
 
 h1
 	font-size 28px
+	margin 0
 
 h2
 	font-size 16px
@@ -19,7 +20,7 @@ strong
 	font-weight 900
 
 .bg-gray
-	background-color #d2d2d2
+	background-color #adadad
 
 	h1
 		color #006db0
@@ -33,16 +34,19 @@ strong
 /* Main Nav */
 
 header nav
-	height 50px
-	border-bottom 2px solid #fff
+	height 105px
+	border-bottom 5px solid #fff
 
 #main-nav
-	height 40px
+	height 90px
+	margin 0
+	padding 0
+	display flex
+	justify-content center
 
 	li
 		list-style-type none
-		line-height 40px
-		float left
+		line-height 90px
 
 		a
 			font-size 21px
@@ -58,7 +62,11 @@ header nav
 
 		#nav-home
 			position relative
-			top -30px
+
+#slider
+
+	.slide img
+		width 100%
 
 #social
 
@@ -67,6 +75,16 @@ header nav
 		border-top 2px solid #fff
 		color #006db0
 		text-align center
+
+	ul
+		display flex
+		justify-content center
+		margin 0
+		padding 10px 0
+
+		li
+			list-style-type none
+			margin-right 10px
 
 #news
 
