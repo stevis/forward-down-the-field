@@ -28,6 +28,7 @@ strong
 
 .bg-blue
 	background-color #006db0
+	color #fff
 
 	h1
 		color #fff
@@ -41,6 +42,10 @@ strong
 	width 1200px
 	display flex
 	flex-direction row
+	justify-content space-between
+
+.content-left, .content-right
+	width 45%
 
 /* Main Nav */
 
@@ -87,17 +92,53 @@ header nav
 		color #006db0
 		text-align center
 
-	ul
-		display flex
-		justify-content center
-		margin 0
-		padding 10px 0
+ul.social-nav
+	display flex
+	justify-content center
+	margin 0
+	padding 10px 0
 
-		li
-			list-style-type none
-			margin-right 10px
+	li
+		list-style-type none
+		margin-right 10px
 
 #news
 
 	.news-column
 		width 45%
+
+	strong
+		color #006db0
+
+#contact
+
+	#contact-left
+		width 45%
+		display flex
+
+		#contact-logos
+			width 45%
+
+		.contact-info
+			margin-bottom 20px
+
+			a
+				color #fff
+				text-decoration none
+
+				&:hover
+					text-decoration underline
+
+			p
+				margin 0
+
+	#contact-right
+		width 45%
+
+footer
+	text-align center
+
+	p
+		margin 0
+		padding 2px 0
+		border-top 4px solid #fff
